@@ -1,0 +1,43 @@
+body{
+background-image: url(Bg.jpg);
+background-size: auto;
+}
+
+.middle{
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .2);
+backdrop-filter: blur(20px);
+box-shadow: 0 0 10px rgba(0, 0, 0, .9);
+border-radius: 10px;
+width: 25%;
+margin-left: 38%;
+margin-top: 12%;
+}
+
+.middle input{
+    width: 39vh;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: inherit;
+}
+.middle button {
+    width: 15%;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: #8a041bf6;
+    cursor: pointer;
+    margin-top: 0%;
+}
+
+.middle h2{
+    margin-left: 35%;
+
+}
+
+.middle ul{
+    font-size: 20px;
+}
+
+li button{
+    margin-left: 20%;
+}
